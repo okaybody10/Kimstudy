@@ -1,12 +1,12 @@
 var dt = new FormData();
 var st = new Set();
-const mes = `¾È³çÇÏ¼¼¿ä! ¸ÕÀú ¹®ÀÇÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù :-)
-¹®ÀÇÁÖ½Å ³»¿ë ¹ÙÅÁÀ¸·Î Á¤º¸¸¦ ¼öÁýÇÏ°í ÀÖÀ¸³ª, ÇöÀç µî·ÏµÇ¾î ÀÖ´Â ÇÁ·ÎÇÊ·Î ¸ðµç °ÍÀÌ È®ÀÎÇÏ±â°¡ ´Ù¼Ò Èûµì´Ï´Ù. ¤Ð¤Ð
-µû¶ó¼­
-1. ÇÐ»ýÀÌ Á¤È®ÇÏ°Ô ¿øÇÏ´Â °ú¸ñÀÇ ¹üÀ§( ex) ¼ö1, ¼ö2,...)
-2. ÇöÀç ÇÐ»ýÀÇ ¼ºÃëµµ(»ó, Áß, ÇÏ or ³»½Å Nµî±Þ..)
-2-1. ¸¸¾à ³»½ÅÀÌ¸é ÇöÀç ÀçÇÐÁßÀÎ ÇÐ±³
-¸¦ ÀÛ¼ºÇØÁÖ½Ã¸é °¨»çÇÏ°Ú½À´Ï´Ù!`;
+const mes = `ì•ˆë…•í•˜ì„¸ìš”! ë¨¼ì € ë¬¸ì˜ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤ :-)
+ë¬¸ì˜ì£¼ì‹  ë‚´ìš© ë°”íƒ•ìœ¼ë¡œ ì •ë³´ë¥¼ ìˆ˜ì§‘í•˜ê³  ìžˆìœ¼ë‚˜, í˜„ìž¬ ë“±ë¡ë˜ì–´ ìžˆëŠ” í”„ë¡œí•„ë¡œ ëª¨ë“  ê²ƒì´ í™•ì¸í•˜ê¸°ê°€ ë‹¤ì†Œ íž˜ë“­ë‹ˆë‹¤. ã… ã… 
+ë”°ë¼ì„œ
+1. í•™ìƒì´ ì •í™•í•˜ê²Œ ì›í•˜ëŠ” ê³¼ëª©ì˜ ë²”ìœ„( ex) ìˆ˜1, ìˆ˜2,...)
+2. í˜„ìž¬ í•™ìƒì˜ ì„±ì·¨ë„(ìƒ, ì¤‘, í•˜ or ë‚´ì‹  Në“±ê¸‰..)
+2-1. ë§Œì•½ ë‚´ì‹ ì´ë©´ í˜„ìž¬ ìž¬í•™ì¤‘ì¸ í•™êµ
+ë¥¼ ìž‘ì„±í•´ì£¼ì‹œë©´ ê°ì‚¬í•˜ê² ìŠµë‹ˆë‹¤!`;
 var truncateBefore = function (str, pattern) {
   return str.slice(str.indexOf(pattern) + pattern.length);
 };
