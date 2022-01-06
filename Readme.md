@@ -5,4 +5,4 @@
 # can latex?
 
 - Test Now
-- $$\forall\,i \in \mathbb{R}\,:\,i^2\geq 0$$
+- ![equation](https://latex.codecogs.com/svg.image?\forall&space;,i&space;\in&space;\mathbb{R},:,i^2\geq&space;0)
